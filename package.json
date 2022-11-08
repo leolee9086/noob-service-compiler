@@ -1,0 +1,24 @@
+{
+  "name": "noob-service-compiler",
+  "version": "0.0.2",
+  "description": "noob主题的一个服务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leolee9086",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.41",
+    "compression": "^1.7.4",
+    "cross-spawn": "^7.0.3",
+    "es-module-lexer": "^1.1.0",
+    "esbuild": "^0.15.13",
+    "express": "^4.18.2",
+    "fs-extra": "^10.1.0",
+    "http-proxy-middleware": "^2.0.6",
+    "magic-string": "^0.26.7",
+    "resolve": "^1.22.1",
+    "sass": "^1.56.0"
+  }
+}
