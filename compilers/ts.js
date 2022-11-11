@@ -5,7 +5,7 @@ const MagicString = require('magic-string');
 const importParser = require('es-module-lexer')
 const resolve = require("resolve")
 const path = require("path")
-function 重写导入(string,filepath,options,baseUrl) {
+export function 重写导入(string,filepath,options,baseUrl) {
     let [imports, exports] = importParser.parse(string)
     let codeMagicString = new MagicString(string)
     imports.forEach(
