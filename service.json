@@ -1,0 +1,27 @@
+{
+    "name": "noob-service-compiler",
+    "author": "椽承设计",
+    "url": "https://github.com/leolee9086/noob-service-publisher",
+    "version": "0.0.2",
+    "minAppVersion": "2.9.0",
+    "displayName": {
+      "default": "noob-service-compiler",
+      "zh_CN": "发布服务"
+    },
+    "description": {
+      "default": "This is a service for publish your note"
+    },
+    "readme": {
+      "default": "README.md",
+      "zh_CN": "README_zh_CN.md"
+    },
+    "funding": {
+      "openCollective": "b3log",
+      "patreon": "",
+      "github": "",
+      "custom": [
+        "https://afdian.net/a/leolee9086"
+      ]
+    }
+  }
+  
